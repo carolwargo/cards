@@ -28,11 +28,11 @@ const CardFlip = () => {
           onAnimationComplete={() => setIsAnimating(false)}
         >
           <div
-            className="flip-card-front w-[100%] h-[100%] bg-cover border-[1px] text-white rounded-lg p-4"
+            className="flip-card-front flex text-center justify-center items-center w-[100%] h-[100%] bg-cover border-[1px] text-white rounded-lg p-4"
             style={{ backgroundImage: `url(${SunRay})` }}
           >
-            <h1 className="text-2xl font-bold/">Sky</h1>
-            <p>Live on top of the world</p>
+            <h1 className="text-2xl font-bold/ " style={{fontSize:'4rem'}}>CLICK ME!</h1>
+            <h2>Click me and see me flip 180 degrees.</h2>
           </div>
 
           <div
