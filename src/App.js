@@ -1,25 +1,13 @@
 import React from 'react';
-import { BrowserRouter, Route, Routes }  from 'react-router-dom';
-import "./App.css";
-import 'bootstrap/dist/css/bootstrap.min.css';
-import HomePage from './HomePage';
+// import components
+import Card from './components/Card';
 
-
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <BrowserRouter>
-        <Routes>
-          <Route path="/" element={<HomePage />} /> 
-          <Route path="*" element={<NotFound />} />
-        </Routes>
-      </BrowserRouter>
+    <div className='w-full bg-[#b1a29d] h-screen flex items-center justify-center'>
+      <Card />
     </div>
   );
-}
-// Create a component for handling not found routes
-function NotFound() {
-  console.error("Page not found!"); // Log error to console
-  return <h1>404 - Not Found</h1>;
-}
+};
+
 export default App;
