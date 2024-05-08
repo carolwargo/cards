@@ -1,11 +1,11 @@
 import React from 'react';
 // import components
 import ImageSlide from './components/ImageSlide';
-import CardFlip from './components/CardFlip';
+//import CardFlip from './components/CardFlip';
 import Card from './components/Card';
 //import Carousel from './components/Carousel';
-import CardSlider2 from './components/CardSlider2';
-import CardSlider1 from './components/CardSlider1'; 
+//import CardSlider2 from './components/CardSlider2';
+//import CardSlider1 from './components/CardSlider1'; 
 import ProductCard from './components/ProductCard';
 
 const App = () => {
@@ -22,10 +22,10 @@ const App = () => {
    
       <ImageSlide />
       <ProductCard />
-      <CardFlip />
+     {/*} <CardFlip />*/}
       {/*<Carousel />*/}
-      <CardSlider2 />
-      <CardSlider1 />
+      {/**<CardSlider2 />*/}
+      {/*<CardSlider1 />*/}
     </div>
   );
 };

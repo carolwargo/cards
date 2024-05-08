@@ -71,7 +71,7 @@ WoodFront,
   };
 
   return (
-    <div className="flex items-center flex-col justify-center bg-black h-screen w-screen overflow-hidden">
+    <div className="flex flex-col items-center justify-center w-screen h-screen overflow-hidden bg-neutral-800">
       {images.map((image, index) => (
         <motion.img
           key={index}

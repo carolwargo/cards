@@ -15,7 +15,7 @@ const CardFlip = () => {
     }
   }
   return (
-    <div className="flex items-center justify-center h-[800px] cursor-pointer bg-gradient-to-b from-transparent via-transparent to-black group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70">
+    <div className="flex items-center justify-center h-[800px] cursor-pointer  bg-neutral-800 group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70">
       <div
         className="flip-card w-[600px] h-[360px] rounded-md shadow-xl"
         onClick={handleFlip}
