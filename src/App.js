@@ -18,10 +18,13 @@ const App = () => {
       <div>
       <Card />
       </div>
-      
-   
-      <ImageSlide />
+      <div>
       <ProductCard />
+      </div>
+     
+      <div> <ImageSlide /></div>
+     
+  
      {/*} <CardFlip />*/}
       {/*<Carousel />*/}
       {/**<CardSlider2 />*/}
