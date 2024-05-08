@@ -43,7 +43,8 @@ const ImageSlider = () => {
     right1: { x: "50%", scale: 0.7, zIndex: 3 },
   };
   return (
-    <div className="flex items-center flex-col justify-center bg-black h-screen">
+    <div className=" bg-neutral-800">
+    <div className="flex items-center flex-col justify-center h-screen">
       {images.map((image, index) => (
         <motion.img
           key={index}
@@ -70,6 +71,7 @@ const ImageSlider = () => {
         >
           Next
         </button>
+      </div>
       </div>
     </div>
   );

@@ -71,7 +71,7 @@ WoodFront,
   };
 
   return (
-    <div className="flex items-center flex-col justify-center bg-black h-screen w-screen">
+    <div className="flex items-center flex-col justify-center bg-black h-screen w-screen overflow-hidden">
       {images.map((image, index) => (
         <motion.img
           key={index}
@@ -82,7 +82,7 @@ WoodFront,
           animate={positions[positionIndexes[index]]}
           variants={imageVariants}
           transition={{ duration: 0.5 }}
-          style={{ width: "40%", position: "absolute" }}
+          style={{ width: "35%", position: "absolute" }}
         />
       ))}
       <div className="flex flex-row gap-3 z-[20]">

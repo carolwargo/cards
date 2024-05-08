@@ -15,9 +15,9 @@ const CardFlip = () => {
     }
   }
   return (
-    <div className="flex items-center justify-center h-[800px] cursor-pointer">
+    <div className="flex items-center justify-center h-[800px] cursor-pointer bg-gradient-to-b from-transparent via-transparent to-black group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70">
       <div
-        className="flip-card w-[600px] h-[360px] rounded-md"
+        className="flip-card w-[600px] h-[360px] rounded-md shadow-xl"
         onClick={handleFlip}
       >
         <motion.div
@@ -31,8 +31,9 @@ const CardFlip = () => {
             className="flip-card-front flex text-center justify-center items-center w-[100%] h-[100%] bg-cover border-[1px] text-white rounded-lg p-4"
             style={{ backgroundImage: `url(${SunRay})` }}
           >
-            <h1 className="text-2xl font-bold/ " style={{fontSize:'4rem'}}>CLICK ME!</h1>
-            <h2>Click me and see me flip 180 degrees.</h2>
+            <h1 className="text-2xl text-red-500 font-bold/" style={{fontSize:'4rem'}}>CLICK ME!</h1>
+            <br />
+          
           </div>
 
           <div
